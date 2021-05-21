@@ -10,9 +10,11 @@
     z-index: -1;
 }
 
+.sorkizart {
+    text-align: justify;
+}
+
 .content {
-    margin-left: 10%;
-    margin-right: 10%;
     background-color: rgba(255, 255, 255, 0.7);
     border-radius: 20px;
 }
@@ -27,7 +29,51 @@ h2 {
     font-size: 200%;
 }
 
+.navlinkcolor {
+    color: white;
+    transition-duration: 0.5s;
+}
+
+.navlinkcolor:hover {
+    color: cyan;
+}
+
 hr {
     border: 3px solid cyan;
     border-radius: 20px;
+}
+
+.forras {
+    color: red;
+    text-decoration: none;
+    transition-duration: 0.5s;
+}
+
+.forras:hover {
+    color: green;
+}
+
+.forras:visited {
+    color: green;
+}
+
+#bold {
+    font-weight: bold;
+}
+
+#normal {
+    font-weight: normal;
+}
+
+.col-12 ol {
+    font-weight: bold;
+}
+
+.col-12 ul {
+    font-weight: bold;
+}
+
+#active {
+    color: red;
+    cursor: not-allowed;
 }
