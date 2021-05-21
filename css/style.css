@@ -1,0 +1,33 @@
+.background {
+    background-image: url(../img/Background1.jpg);
+    background-size: cover;
+    background-position: center top;
+    background-repeat: no-repeat;
+    position: fixed;
+    height: 100%;
+    left: 0px;
+    right: 0px;
+    z-index: -1;
+}
+
+.content {
+    margin-left: 10%;
+    margin-right: 10%;
+    background-color: rgba(255, 255, 255, 0.7);
+    border-radius: 20px;
+}
+
+h1 {
+    text-align: center;
+    font-size: 300%;
+}
+
+h2 {
+    text-align: center;
+    font-size: 200%;
+}
+
+hr {
+    border: 3px solid cyan;
+    border-radius: 20px;
+}
