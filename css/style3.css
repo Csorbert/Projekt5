@@ -80,6 +80,7 @@ hr {
 
 .image {
     position: relative;
+    max-width: 180px;
 }
   
 .picture {
@@ -87,6 +88,9 @@ hr {
     transition: 0.5s;
     border-radius: 20px;
     border: 2px solid cyan;
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
 }
   
 .middle {
@@ -115,10 +119,4 @@ hr {
     font-size: 125%;
     padding: 10px;
     text-align: center;
-}
-
-.picture {
-    margin-left: auto;
-    margin-right: auto;
-    display: block;
 }
