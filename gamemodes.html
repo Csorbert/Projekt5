@@ -14,23 +14,77 @@
     <nav class="navbar navbar-expand bg-dark">
         <a class="navbar-brand text-white p-3">Overwatch</a>
         <ul class="navbar-nav">
-            <li class="nav-item active">
-                <a class="nav-link text-white" href="index.html">Kezdőlap</a>
+            <li class="nav-item">
+                <a class="nav-link navlinkcolor" href="index.html">Kezdőlap</a>
             </li>
             <li class="nav-item">
-                <a class="nav-link text-white" href="gamemodes.html">Játékmódok</a>
+                <a class="nav-link navlinkcolor" id="active">Játékmódok</a>
             </li>
             <li class="nav-item">
-                <a class="nav-link text-white" href="karakterek.html">Karakterek</a>
+                <a class="nav-link navlinkcolor" href="karakterek.html">Karakterek</a>
             </li>
     </nav>
 
-    <header class="container">
+    <header class="container content my-5 py-2">
         <h1>Játékmódok</h1>
     </header>
 
-    <main class="container">
-        Játékmódok
+    <main class="container content">
+        <br>
+        <hr class="my-3 mx-5 p-1">
+        <h2>Elérhető játékmódok</h2>
+
+        <article class="row sorkizart">
+            <div class="col-12">
+                <ul>
+                    <li>Quick Play - <span id="normal">A játék megpróbál a játékossal egyszintű játékosokat bedobni mint az ellensége és a csapatba, és nincs megszabva hogy ki mivel lesz.</span></li>
+                    <li>Capture the Flag - <span id="normal">Kettő csapatnak meg kell küzdeni az ellenség bázisán található zászlóért, vagy, a pálya közepén lévőért.</span></li>
+                    <li>Deathmatch - <span id="normal">Minden játékos egymás ellen, az adott pálya egy megadott részén. Aki a leggyorsabban eléri a 30 pontot, vagy a legmagasabb pontszámmal rendelkezik 10 perc után, az nyeri a játékot.</span></li>
+                    <li>Team Deathmatch - <span id="normal">Kettő csapat játékosai küzdenek meg egymással, és az előbb említett Deathmatch szabályok vonatkoznak.</span></li>
+                    <li>Lockout Elimination - <span id="normal">Kettő csapat küzd meg egymással, és aki először nyer 3 kört, az nyeri a teljes játékot. Amelyik hősökkel nyert az adott csapat, azokat már többször nem lehet beválasztani.</span></li>
+                    <li>Low Gravity - <span id="normal">Quick Play másolata, annyi különbséggel, hogy a karakterek gravitációja le van csökkentve, ezáltal nagy távokat tehetnek meg, de veszélyek is lehetnek, hiszen pontatlanabbak ha valaki rájuk támad.</span></li>
+                    <li>Mystery Heroes - <span id="normal">Quick Play másolata, csakhogy a játékos nem tudja a saját hősét megválasztani, hanem minden egyes úrjaéledésnél a játék kiválaszt neki egyet.</span></li>
+                    <li>No Limits - <span id="normal">Quick Play másolata, csak nincs megszabva, hogy az adott hőst mennyiszer választhatják (ez normál esetben 1/karakter).</span></li>
+                    <li>Total Mayhem - <span id="normal">Minden hős dupla életerővel rendelkezik, képességeik 4x gyorsabban töltenek, végső képességük pedig 2x.</span></li>
+                    <li>Game Browser - <span id="normal">Itt a játékosok mások vagy akár saját maguk által elkészített játékmódokat játszhatnak. A limitet csak a játékban lévő funkciók szabélyák meg, de ezt rendszeresen bővítik új dolgokkal.</li>
+                    <li>Competitive Play - <span id="normal">Kettő csapat küzd meg egymással, és amelyik előbb nyer meg 2 teljes menetet, az nyeri a csatát. Ide csak nagyszintűek léphetnek be, és rangot is szerezhetnek, amit mindenki lát.</span></li>
+                    <li>Practice Range - <span id="normal">Itt ki lehet próbálni az összes hőst, akár barátokkal is. Csappattárs és ellenséges robotok vannak, amik ugyan nem tesznek semmi különöset, mint állnak és néha lőnek egyet-egyet. Miközben a játékosnak a rendszer elérhető játékot keres, ide érdemes belépni, picit bemelegíteni.</span></li>
+                    <li>Practice vs. AI - <span id="normal">Itt egy olyan játékot hoz létre a játékosnak és csapatának, ahol a beállított nehézség szerint robot ellen küzdhetnek meg.</span></li>
+                </ul>
+            </div>
+        </article>
+
+        <hr class="my-3 mx-5 p-1">
+        <h2>Pálya típusok</h2>
+        
+        <article class="row sorkizart">
+            <div class="col-12">
+                <ul>
+                    <li>Assault - <span id="normal">Egy vagy több kijelölt pontot az egyik csapatnak el kell foglalnia, a másiknak pedig ezt megakadályozni. Ha a megadott idő lejár, a védelmező csapat nyer. Az idő meghosszabbodik ha egy pontot elfoglalnak.</span></li>
+                    <li>Control - <span id="normal">Két csapat küzd meg egy pont teljes elfoglalásához. Hiába foglalják be, ugyanis ameddig a számláló el nem éri a 100%-ot, addig nem nyernek. Ezt természetesen a másik csapat vissza tudja venni úgy, hogy befoglalják azt. Ilyenkor az ő számlálójuk elindul, a másik csapaté pedig megáll, tehát onnan folytatják ahol abbamaradt.</span></li>
+                    <li>Escort - <span id="normal">A támadó csapatnak el kell kísérnie egy "payload"-ot a megadott pontra, a védőknek pedig ezt megakadályoznia. A payload-ot végig kell tolniuk megállókon keresztül, míg eljutnak a célig. Ha a védő csapat visszaszerzi a payload-ot, vissza tudják tolni az utolsó megállóig. A játék véget ér ha az időből kifutnak a támadók, vagy beviszok a payload-ot.</span></li>
+                    <li>Hybrid - <span id="normal">Assault és Escort keveréke, a casvar annyi, hogy a payload-ot meg is kell szereznie a támadó csapatnak.</span></li>
+                </ul>
+            </div>
+        </article>
+
+        <hr class="my-3 mx-5 p-1">
+        <br>
     </main>
+
+    <footer class="container content my-5 py-1">
+        <article class="row">
+            <div class="col-6">
+                <a><h2>Vass Norbert &copy; 9/D</h2></a>
+            </div>
+            <div class="col-6">
+                <a href="https://hu.wikipedia.org/wiki/Overwatch" target="_blank" class="forras"><h2>Forrás</h2></a>
+            </div>
+        </article>
+    </footer>
+
+    <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>
 </body>
 </html>
