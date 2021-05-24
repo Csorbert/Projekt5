@@ -1,4 +1,4 @@
-# Olvass el
+# Linkek
 
 Trello tábla link: https://trello.com/invite/b/ZdQHgTNc/a6b34b75be4e0b6e0fb239b0f7475176/projekt5
 
