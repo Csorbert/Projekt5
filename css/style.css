@@ -62,13 +62,17 @@ h2 {
     font-size: 200%;
 }
 
-.navlinkcolor {
+.navbar-dark .navbar-nav .nav-link {
     color: white;
     transition-duration: 0.5s;
 }
 
-.navlinkcolor:hover {
+.navbar-dark .navbar-nav .nav-link:hover {
     color: cyan;
+}
+
+.navbar-collapse {
+    flex-grow: 0;
 }
 
 hr {

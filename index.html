@@ -13,29 +13,35 @@
 <body>
     <div class="background"></div>
 
-    <nav class="navbar navbar-expand bg-dark p-3">
+    <nav class="navbar navbar-expand-md navbar-dark bg-dark p-3">
         <div class="container-fluid">
             <div class="navbar-header">
                 <a class="navbar-brand text-white">Overwatch</a>
             </div>
 
-            <ul class="nav navbar-nav">
-                <li class="nav-item">
-                    <a class="nav-link navlinkcolor" id="active">Kezdőlap</a>
-                </li>
-    
-                <li class="nav-item">
-                    <a class="nav-link navlinkcolor" href="gamemodes.html">Játékmódok</a>
-                </li>
-    
-                <li class="nav-item">
-                    <a class="nav-link navlinkcolor" href="karakterek.html">Karakterek</a>
-                </li>
-    
-                <li class="nav-item">
-                    <a class="nav-link navlinkcolor" href="https://forms.gle/Hw6NkuhNZqrtGAjD7" target="_blank">Kérdőív</a>
-                </li>
-            </ul>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="nav navbar-nav mr-auto">
+                    <li class="nav-item active">
+                        <a class="nav-link" id="active">Kezdőlap</a>
+                    </li>
+        
+                    <li class="nav-item">
+                        <a class="nav-link" href="gamemodes.html">Játékmódok</a>
+                    </li>
+        
+                    <li class="nav-item">
+                        <a class="nav-link" href="karakterek.html">Karakterek</a>
+                    </li>
+        
+                    <li class="nav-item">
+                        <a class="nav-link" href="https://forms.gle/Hw6NkuhNZqrtGAjD7" target="_blank">Kérdőív</a>
+                    </li>
+                </ul>
+            </div>
         </div>
     </nav>
 
@@ -98,6 +104,41 @@
             <div class="col-12">
                 Egy ideális csapatban minimum van 1 tank és 1 healer, ezek nélkül csak egy kapkodás és teljes kász a csapat.
                 Vannak a játékban már bevált "meták", ahol megadott hősöket választanak ki, mivel jól működnek egymással.
+            </div>
+        </article>
+
+        <hr class="my-3 mx-5 p-1">
+        <h2>Droppok/Rewardok</h2>
+
+        <article class="row sorkizart">
+            <div class="col-12">
+                <table class="table">
+                    <thead>
+                      <tr>
+                        <th scope="col"></th>
+                        <th scope="col">Common</th>
+                        <th scope="col">Rare</th>
+                        <th scope="col">Epic</th>
+                        <th scope="col">Legendary</th>
+                      </tr>
+                    </thead>
+                    <tbody>
+                      <tr>
+                        <th scope="row">Min.</th>
+                        <td>0</td>
+                        <td>25</td>
+                        <td>200</td>
+                        <td>500</td>
+                      </tr>
+                      <tr>
+                        <th scope="row">Max.</th>
+                        <td>25</td>
+                        <td>75</td>
+                        <td>250</td>
+                        <td>3000</td>
+                      </tr>
+                    </tbody>
+                  </table>
             </div>
         </article>
 
